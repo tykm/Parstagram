@@ -14,7 +14,7 @@ public class ParseApplication extends Application {
         // any network interceptors must be added with the Configuration Builder given this syntax
         Parse.initialize(new Parse.Configuration.Builder(this)
                 .applicationId("VjqmOK7bTyMLj5BXSUXVEaqTYpY5uhHQRHBbNy2Q") // should correspond to Application Id env variable
-                .clientKey("buQzfanHMZk7SkydPIwtRVyQhNbshUM6th7oumQl")  // should correspond to Client key env variable
-                .server("https://tyler-parstagram.herokuapp.com/parse/").build());
+                .clientKey("bGg8c3ep8KsvMz1HH48XWtQh7gJmWHFWctqyVH3B")  // should correspond to Client key env variable
+                .server("https://parseapi.back4app.com").build());
     }
 }
