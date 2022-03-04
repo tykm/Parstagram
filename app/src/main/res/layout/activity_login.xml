@@ -16,6 +16,7 @@
         android:ems="10"
         android:hint="username"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,9 +27,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPassword"
-        android:orientation="vertical"
         android:hint="password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvUsername" />
 
