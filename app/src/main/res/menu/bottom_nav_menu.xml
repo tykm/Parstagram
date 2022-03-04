@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/instagram_home_filled_24" />
+    <item
+        android:id="@+id/upload"
+        android:icon="@drawable/instagram_new_post_filled_24" />
+    <item
+        android:id="@+id/user"
+        android:icon="@drawable/instagram_user_filled_24" />
+</menu>
